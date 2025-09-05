@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">RT02<span>COFFELAB</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#products">Products</a>
+        <a href="#testimonial">Testimonial</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Kopi Lawas Kanggo Retos Anyar</h1>
+        <p>Rikala Wingi. Rasa Saiki.</p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+
+    <section class="next-section">
+      <h2>Selamat datang di RT02 COFFELAB</h2>
+      <p>Nikmati kopi pilihan kami yang diracik dengan cinta.</p>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+      <div class="about-content">
+        <img src="img/about.jpg" alt="Tentang Kami" />
+        <div class="about-text">
+          <p>
+            RT02 Coffelab adalah dimensi untuk mereka yang merindukan aroma kopi
+            lawas namun ingin merasakannya dalam nuansa anyar. Kami percaya
+            bahwa setiap seduhan menyimpan cerita, dan setiap tegukan
+            mengingatkan masa lalu yang hangat.
+          </p>
+          <p>
+            Dengan bahan pilihan dan teknik tradisional yang dikemas modern,
+            kami hadir bukan hanya untuk menyajikan kopi, tapi juga rasa yang
+            paham waktu.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Our</span> Menu</h2>
+      <p class="menu-description">
+        Sajian pilihan kopi dengan rasa lawas, diracik dengan sentuhan anyar.
+        Temukan favoritmu di antara racikan terbaik kami.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="img/menu/img-americano.jpeg"
+            alt="Americano"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Americano -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/menu/img-espresso.jpg"
+            alt="Espresso"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/menu/img-matcha.jpeg"
+            alt="Matcha"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Matcha -</h3>
+          <p class="menu-card-price">IDR 22K</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/menu/img-red velvet.jpeg"
+            alt="Red Velvet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Red Velvet -</h3>
+          <p class="menu-card-price">IDR 24K</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/menu/img-cappucino.jpeg"
+            alt="Cappuccino"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Cappuccino -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section End -->
+
+    <!-- Products Section Start -->
+    <section class="products" id="products">
+      <h2><span>Our</span> BestSeller</h2>
+      <p>
+        Kami menjual bahan atau produk yang berkualitas dan mengambil stock dari
+        petani yang berkualitas.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+            <img src="" alt="" />
+            <h3 class="product-title">Kopi Toraja</h3>
+            <p class="product-card-weight">1kg</p>
+            <p class="product-card-price">235K</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Our</span>Contact</h2>
+      <p>
+        Jika memiliki keluhan dapat disampaikan melalui kontak kami dibawah ini.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.4889030559407!2d110.39329397476659!3d-7.8437883921776015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57004148990b%3A0xb2e79a3c66abc7!2sSoto%20Pak%20Santo!5e0!3m2!1sid!2sid!4v1752770197673!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="maps"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="mail" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="phone number" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Testimonial Start -->
+
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#testimonial">Testimonial</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">sadewonoto</a>. | &copy; 2025</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
